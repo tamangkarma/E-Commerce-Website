@@ -3,7 +3,9 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-      <h1>Hello I am Home Page</h1>
+      <div className='h-screen'>
+
+      </div>
     </>
   )
 }

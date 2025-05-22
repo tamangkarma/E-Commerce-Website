@@ -27,15 +27,15 @@ const Nav = () => {
           </ul>
            <div className="flex items-center justify-center space-x-4">
                 <div>
-                    <input type="text" placeholder="Search here..." className="p-2 rounded-full w-64 h-8 " />
+                    <input type="text" placeholder="Search here..." className="p-2 rounded-full w-64 h-8 placeholder-red-600 placeholder:text-sm placeholder:pl-2" />
                 </div>
               <li className="text-gray-300 hover:text-gray-400 hidden md:flex lg:flex">
                 <Link to="/cart">
                   <div className="relative">
-                    <div className="absolute left-5 top-0 flex h-4 w-4 items-center justify-center rounded-full bg-red-500">
-                      <p>0</p>
+                    <div className="absolute left-6 top-[-6px] flex h-4 w-4 items-center justify-center rounded-full bg-white text-red-500 text-xs">
+                      <p>3</p>
                     </div>
-                    <MdShoppingCartCheckout size={27} color="white" />
+                    <MdShoppingCartCheckout size={30} color="white" />
                   </div>
                 </Link>
               </li>

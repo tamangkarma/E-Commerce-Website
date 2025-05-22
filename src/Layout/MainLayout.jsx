@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router'
 import Nav from '../components/nav'
+import Footer from '../components/Footer'
 
 
 const MainLayout = () => {
@@ -13,7 +14,7 @@ const MainLayout = () => {
         <Outlet/>
       </main>
       <footer>
-        <p>Copyright &copy; 2023</p>
+        <Footer/>
       </footer>
     </>
   )
