@@ -1,6 +1,7 @@
 import { IoMdCall} from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import {IoChatbubbleEllipsesOutline} from "react-icons/io5";
+import { ImGift } from "react-icons/im";
 
 
 
@@ -64,7 +65,7 @@ export const footerPData = [
     },
     {
         id: 8,
-        name: "Caps",
+        name: "Kitchen Items",
     }
 ]
 
@@ -114,6 +115,10 @@ export const footerContact = [
     {
         id: 5,
         name: "Request a Quote",
+    },
+    {
+        id: 6,
+        name: "Schedule a Call",
     }
 ]
 

@@ -27,7 +27,7 @@ const Nav = () => {
           </ul>
            <div className="flex items-center justify-center space-x-4">
                 <div>
-                    <input type="text" placeholder="Search here..." className="p-2 rounded-full w-64 h-8 placeholder-red-600 placeholder:text-sm placeholder:pl-2" />
+                    <input type="text" placeholder="Search here..." className="p-2 rounded-lg w-64 h-8 placeholder-gray-500 placeholder:text-sm placeholder:pl-2" />
                 </div>
               <li className="text-gray-300 hover:text-gray-400 hidden md:flex lg:flex">
                 <Link to="/cart">
