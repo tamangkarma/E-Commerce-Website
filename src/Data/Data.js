@@ -167,3 +167,87 @@ export const footerData = [
         url: "/terms-of-service",
     },
 ]
+
+export const sections = [
+  {
+    title: "Have more fun with family",
+    items: [
+      { image: "/public/flashSale/adidas galaxy 6 M Running Shows For Man.png", title: "Outdoor Play Sets" },
+      { image: "/public/flashSale/Silicone bottle brush.png", title: "Learning Toys" },
+      { image: "/public/flashSale/Vintage T-9 Hair Trimmer For Men Plastic Body.png", title: "Action Figures" },
+      { image: "/public/flashSale/WhiteMoon nRegukar Series Extra Comfort.png", title: "Pretend Play Toys" },
+    ],
+    linkText: "See more",
+  },
+
+  {
+    title: "Beauty & Personal Care",
+    items: [
+      { image: "/public/flashSale/adidas galaxy 6 M Running Shows For Man.png", title: "Outdoor Play Sets" },
+      { image: "/public/flashSale/Silicone bottle brush.png", title: "Learning Toys" },
+      { image: "/public/flashSale/Vintage T-9 Hair Trimmer For Men Plastic Body.png", title: "Action Figures" },
+      { image: "/public/flashSale/WhiteMoon nRegukar Series Extra Comfort.png", title: "Pretend Play Toys" },
+    ],
+    linkText: "See more",
+  },
+  {
+    title: "Wireless Headphones",
+    items: [
+      { image: "/public/flashSale/adidas galaxy 6 M Running Shows For Man.png", title: "Outdoor Play Sets" },
+      { image: "/public/flashSale/Silicone bottle brush.png", title: "Learning Toys" },
+      { image: "/public/flashSale/Vintage T-9 Hair Trimmer For Men Plastic Body.png", title: "Action Figures" },
+      { image: "/public/flashSale/WhiteMoon nRegukar Series Extra Comfort.png", title: "Pretend Play Toys" },
+    ],
+    linkText: "See more",
+  },
+  {
+    title: "Women's Fashion",
+    items: [
+      { image: "/public/flashSale/adidas galaxy 6 M Running Shows For Man.png", title: "Outdoor Play Sets" },
+      { image: "/public/flashSale/Silicone bottle brush.png", title: "Learning Toys" },
+      { image: "/public/flashSale/Vintage T-9 Hair Trimmer For Men Plastic Body.png", title: "Action Figures" },
+      { image: "/public/flashSale/WhiteMoon nRegukar Series Extra Comfort.png", title: "Pretend Play Toys" },
+    ],
+    linkText: "See more",
+  },
+  {
+    title: "Clothing & Accessories",
+    items: [
+      { image: "/public/flashSale/adidas galaxy 6 M Running Shows For Man.png", title: "Outdoor Play Sets" },
+      { image: "/public/flashSale/Silicone bottle brush.png", title: "Learning Toys" },
+      { image: "/public/flashSale/Vintage T-9 Hair Trimmer For Men Plastic Body.png", title: "Action Figures" },
+      { image: "/public/flashSale/WhiteMoon nRegukar Series Extra Comfort.png", title: "Pretend Play Toys" },
+    ],
+    linkText: "See more",
+  },
+  {
+    title: "Kitchen Items",
+    items: [
+      { image: "/public/flashSale/adidas galaxy 6 M Running Shows For Man.png", title: "Outdoor Play Sets" },
+      { image: "/public/flashSale/Silicone bottle brush.png", title: "Learning Toys" },
+      { image: "/public/flashSale/Vintage T-9 Hair Trimmer For Men Plastic Body.png", title: "Action Figures" },
+      { image: "/public/flashSale/WhiteMoon nRegukar Series Extra Comfort.png", title: "Pretend Play Toys" },
+    ],
+    linkText: "See more",
+  },
+  {
+    title: "Kids' Toys",
+    items: [
+      { image: "/public/flashSale/adidas galaxy 6 M Running Shows For Man.png", title: "Outdoor Play Sets" },
+      { image: "/public/flashSale/Silicone bottle brush.png", title: "Learning Toys" },
+      { image: "/public/flashSale/Vintage T-9 Hair Trimmer For Men Plastic Body.png", title: "Action Figures" },
+      { image: "/public/flashSale/WhiteMoon nRegukar Series Extra Comfort.png", title: "Pretend Play Toys" },
+    ],
+    linkText: "See more",
+  },
+  {
+    title: "Toys & Games",
+    items: [
+      { image: "/public/flashSale/adidas galaxy 6 M Running Shows For Man.png", title: "Outdoor Play Sets" },
+      { image: "/public/flashSale/Silicone bottle brush.png", title: "Learning Toys" },
+      { image: "/public/flashSale/Vintage T-9 Hair Trimmer For Men Plastic Body.png", title: "Action Figures" },
+      { image: "/public/flashSale/WhiteMoon nRegukar Series Extra Comfort.png", title: "Pretend Play Toys" },
+    ],
+    linkText: "See more",
+  },
+];
