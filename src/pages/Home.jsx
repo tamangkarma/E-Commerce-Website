@@ -6,7 +6,7 @@ import { sections } from "../Data/Data";
 const Home = () => {
   return (
     <>
-      <div className="">
+      <div>
         <Slidebar />
         <div className="flex flex-wrap justify-center gap-6 my-10">
           {sections.map((section, idx) => (
@@ -24,7 +24,7 @@ const Home = () => {
                   </div>
                 ))}
               </div>
-              <p className="text-blue-600 text-sm mt-4 cursor-pointer hover:underline">
+              <p className="text-red-600 text-sm mt-4 cursor-pointer hover:underline">
                 {section.linkText}
               </p>
             </div>
