@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink, Link } from "react-router";
 import { navData } from "../Data/Data";
+import { FiShoppingBag } from "react-icons/fi";
 //icons
 import { MdShoppingCartCheckout } from "react-icons/md";
 
@@ -16,7 +17,7 @@ const Nav = () => {
       <nav className="bg-navbar p-4 text-white">
         <div className="container mx-auto flex items-center justify-between">
           <div>
-            <p className="text-xl font-bold">Brand</p>
+          <FiShoppingBag size={30} className="text-primary text-3xl" />
           </div>
           <ul className="hidden space-x-6 md:flex ">
             {navData.map((item, index) => (

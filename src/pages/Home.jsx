@@ -1,5 +1,7 @@
 import { Slidebar } from "../components/swiper";
 import { sections } from "../Data/Data";
+import Products from "./Products";
+import TopProducts from "./TopProducts";
 
 
 
@@ -8,6 +10,7 @@ const Home = () => {
     <>
       <div>
         <Slidebar />
+        <Products/>
         <div className="flex flex-wrap justify-center gap-6 my-10">
           {sections.map((section, idx) => (
             <div key={idx} className="w-72 bg-white shadow p-4 rounded-lg">
@@ -30,6 +33,7 @@ const Home = () => {
             </div>
           ))}
         </div>
+        <TopProducts/>
       </div>
     </>
   );
