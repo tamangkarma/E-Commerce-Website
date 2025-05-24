@@ -136,7 +136,7 @@ const Signup = () => {
                         }
 
                         <InputField
-                            type="password" 
+                            type={showPassword ? "text" : "password"}
                             id="confirmPassword"
                             {...register("confirmPassword",{
                                 required: 'Confirm Password is required',
@@ -145,7 +145,12 @@ const Signup = () => {
                             }
                             )}
                             placeholder={'Confirm Password'}
-                        />   
+                        />  
+                        <div className='absolute flex items-center  mt-[-28px] ml-28 sm:ml-48  lg:ml-48'>
+                            <span onClick={() => setShowPassword(!showPassword)} className='absolute ml-32  cursor-pointer'>
+                                {showPassword ? <RxEyeOpen size={18} color='gray' /> : <LuEyeClosed size={18} color='gray' />}
+                            </span>
+                        </div> 
                             
                             {
                                 errors.confirmPassword && (
