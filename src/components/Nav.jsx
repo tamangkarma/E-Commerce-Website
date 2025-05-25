@@ -4,10 +4,11 @@ import { navData } from "../Data/Data";
 import { FiShoppingBag } from "react-icons/fi";
 //icons
 import { MdShoppingCartCheckout } from "react-icons/md";
+import { useCart } from "../store/cartStore";
 
 const Nav = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+  const count = useCart((state) => state.cartCount);
   const handleMobileMenuClick = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
@@ -34,7 +35,7 @@ const Nav = () => {
                 <Link to="/cart">
                   <div className="relative">
                     <div className="absolute left-6 top-[-6px] flex h-4 w-4 items-center justify-center rounded-full bg-white text-red-500 text-xs">
-                      <p>3</p>
+                      <p>{count}</p>
                     </div>
                     <MdShoppingCartCheckout size={30} color="white" />
                   </div>
