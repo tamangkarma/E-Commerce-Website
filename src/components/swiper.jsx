@@ -29,11 +29,11 @@ export const Slidebar=()=> {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="/public/hero-bg.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="/public/hero-bg2.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="/public/hero-bg3.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="/public/hero-bg4.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="/public/hero-bg5.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="/hero-bg.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="/hero-bg2.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="/hero-bg3.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="/hero-bg4.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="/hero-bg5.png" alt="" /></SwiperSlide>
       </Swiper>
     </>
   );
