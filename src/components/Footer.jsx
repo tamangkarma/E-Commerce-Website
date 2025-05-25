@@ -1,3 +1,5 @@
+
+
 import {
   footerContact,
   footerHelpData,
@@ -73,12 +75,12 @@ const Footer = () => {
         <div className="hidden p-4 sm:flex sm:justify-center sm:items-center ">
           <div className="flex flex-wrap items-center justify-center gap-4">
             <img
-              src="/public/Mastercard_2019_logo.png"
+              src="/Mastercard_2019_logo.png"
               alt="Visa"
               className="object-contain w-20 h-12 p-2 bg-white"
             />
             <img
-              src="/public/esewa.png"
+              src="/esewa.png"
               alt="Mastercard"
               className="object-contain w-20 h-12 p-2 bg-white"
             />
@@ -88,12 +90,12 @@ const Footer = () => {
               className="object-contain w-20 h-12 p-2 bg-white"
             />
             <img
-              src="/public/VISA-logo.png"
+              src="/VISA-logo.png"
               alt="Visa"
               className="object-contain w-20 h-12 p-2 bg-white"
             />
             <img
-              src="/public/Paypal-Logo-2014.png"
+              src="/Paypal-Logo-2014.png"
               alt="PayPal"
               className="object-contain w-20 h-12 p-2 bg-white"
             />
