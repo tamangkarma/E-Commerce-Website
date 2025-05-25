@@ -22,10 +22,10 @@ const Footer = () => {
           </div>
           <div className="hidden sm:flex sm:gap-10 lg:gap-20">
             <ul>
-              <div>
-                <h1 className="text-2xl font-semibold">Products</h1>
+              <div className="cursor-pointer">
+                <h1 className="text-2xl font-semibold hover:underline hover:text-red-200">Products</h1>
                 {footerPData.map((item, index) => (
-                  <li key={index} className="p-1">
+                  <li key={index} className="p-1 hover:text-red-400">
                     {item.name}
                   </li>
                 ))}
@@ -33,10 +33,10 @@ const Footer = () => {
             </ul>
 
             <ul>
-              <div>
-                <h1 className="text-2xl font-semibold">Services</h1>
+              <div className="cursor-pointer">
+                <h1 className="text-2xl font-semibold hover:underline hover:text-red-300">Services</h1>
                 {footerSData.map((item, index) => (
-                  <li key={index} className="p-1">
+                  <li key={index} className="p-1 hover:text-red-400">
                     {item.name}
                   </li>
                 ))}
@@ -44,10 +44,10 @@ const Footer = () => {
             </ul>
 
             <ul>
-              <div>
-                <h1 className="text-2xl font-semibold">Help</h1>
+              <div className="cursor-pointer">
+                <h1 className="text-2xl font-semibold hover:underline hover:text-red-300">Help</h1>
                 {footerHelpData.map((item, index) => (
-                  <li key={index} className="p-1">
+                  <li key={index} className="p-1 hover:text-red-400">
                     {item.name}
                   </li>
                 ))}
@@ -55,10 +55,10 @@ const Footer = () => {
             </ul>
 
             <ul>
-              <div>
-                <h1 className="text-2xl font-semibold">Contact</h1>
+              <div className="cursor-pointer">
+                <h1 className="text-2xl font-semibold hover:underline hover:text-red-200">Contact</h1>
                 {footerContact.map((item, index) => (
-                  <li key={index} className="p-1">
+                  <li key={index} className="p-1 hover:text-red-400">
                     <div className="flex items-center gap-2">
                       {item.icon && <item.icon size={20} />}
                       <span>{item.name}</span>

@@ -8,7 +8,7 @@ import TopProducts from "./TopProducts";
 const Home = () => {
   return (
     <>
-      <div>
+      <div className="mt-[4rem]">
         <Slidebar />
         <Products />
         <Cart/>

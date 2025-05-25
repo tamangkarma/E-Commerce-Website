@@ -13,9 +13,10 @@ const Nav = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
+  
   return (
     <div>
-      <nav className="bg-navbar p-4 text-white">
+      <nav className="bg-navbar p-4 text-white fixed w-full top-0 z-50">
         <div className="container mx-auto flex items-center justify-between">
           <div>
           <FiShoppingBag size={30} className="text-primary text-3xl" />
