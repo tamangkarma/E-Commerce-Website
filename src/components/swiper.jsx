@@ -1,7 +1,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import  Image1 from '../../public/hero-bg.png';
+import Image1 from '../../public/hero-bg.png';
 import Image2 from '../../public/hero-bg2.png';
 import Image3 from '../../public/hero-bg3.png';
 import Image4 from '../../public/hero-bg4.png';

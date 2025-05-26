@@ -11,7 +11,7 @@ const Home = () => {
       <div className="mt-[4rem]">
         <Slidebar />
         <Products />
-        <Cart/>
+        <Cart />
         <TopProducts/>
       </div>
     </>

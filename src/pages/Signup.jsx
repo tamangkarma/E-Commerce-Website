@@ -46,7 +46,7 @@ const Signup = () => {
 
     return (
         <>
-            <div className='p-5 mx-auto border shadow-2xl sm:w-96 md:w-96 lg:w-96 w-80 my-10 rounded-2xl'>
+            <div className='p-5 mx-auto border shadow-2xl sm:w-96 md:w-96 lg:w-96 w-80  rounded-2xl my-28'>
                 <ToastContainer />
                 <form onSubmit={handleSubmit((data) => sendatatoApi(data))} >
                     <h1 className='sm:text-3xl text-2xl font-bold  '>Signup</h1>

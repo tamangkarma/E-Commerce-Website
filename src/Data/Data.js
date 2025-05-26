@@ -30,7 +30,12 @@ export const navData = [
         id: 5,
         title: "Signup",
         url: "/signup",
-    }
+    },
+    // {
+    //     id: 6,
+    //     title: "Add to Cart",
+    //     url: "/add-to-cart",
+    // }
 ]
 
 
