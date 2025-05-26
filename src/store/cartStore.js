@@ -63,6 +63,8 @@ export const useCart = create((set) => ({
       };
     }),
 
+    
+
   // Clear all items in cart
   clearCart: () => set({ cartItem: [], cartCount: 0 }),
 }));

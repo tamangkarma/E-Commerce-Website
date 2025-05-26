@@ -1,5 +1,3 @@
-
-
 import {
   footerContact,
   footerHelpData,

@@ -9,63 +9,63 @@ const Cart = () => {
       id: 1,
       name: "I phone 16",
       type: "Phone",
-      price: "$543",
+      price: "225000",
       img: "https://cdn.gadgetbytenepal.com/wp-content/uploads/2024/09/iPhone-16-Black.jpg",
     },
     {
       id: 2,
       name: "Samsung Galaxy S24 Ultra",
       type: "Phone",
-      price: "$748.51",
+      price: "199000",
       img: "https://m.media-amazon.com/images/I/71-EnPs+uQL._AC_SL1500_.jpg",
     },
     {
       id: 3,
       name: "Roblox Digital Gift Card",
       type: "Robux",
-      price: "$10.00",
+      price: "5000",
       img: "https://m.media-amazon.com/images/I/71nvKD9L-iL._SL1500_.jpg",
     },
     {
       id: 4,
       name: "JBL PartyBox Club 120",
       type: "speaker",
-      price: "$270.00",
+      price: "3500",
       img: "https://m.media-amazon.com/images/I/71WbvaRp9PL._AC_SL1500_.jpg",
     },
     {
       id: 5,
       name: "Beats Studio Pro",
       type: "headphones",
-      price: "$148.49",
+      price: "5250",
       img: "https://m.media-amazon.com/images/I/51t0IE0zjaL._AC_SL1500_.jpg",
     },
     {
       id: 6,
       name: "Beats Studio Buds",
       type: "headphones",
-      price: "$86.00",
+      price: "2699",
       img: "https://m.media-amazon.com/images/I/51bRSWrEc7S._AC_SL1500_.jpg",
     },
     {
       id: 7,
       name: "Smart Watch",
       type: "Watch",
-      price: "$39.50",
+      price: "1699",
       img: "https://m.media-amazon.com/images/I/61i+0kcHyBL._AC_SL1500_.jpg",
     },
     {
       id: 8,
       name: "Xbox Wireless Controller",
       type: "Controller",
-      price: "$125.50",
+      price: "2999",
       img: "https://m.media-amazon.com/images/I/71ehTh38k7L._SL1500_.jpg",
     },
     {
       id: 9,
       name: "ASUS TUF Gaming",
       type: "graphics card",
-      price: "$969.50",
+      price: "23599",
       img: "https://m.media-amazon.com/images/I/815-M4vy8JL._AC_SL1500_.jpg",
     },
   ];
@@ -82,7 +82,7 @@ const Cart = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Dessert Cards Grid */}
-          <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="lg:col-span-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {desserts.map((dessert) => (
               <Link
                 key={dessert.id}
@@ -112,7 +112,7 @@ const Cart = () => {
                   </h2>
                   <p className="text-sm text-gray-500 mb-1">{dessert.type}</p>
                   <p className="text-[#d4492b] font-semibold text-sm">
-                    {dessert.price}
+                    Rs {dessert.price}
                   </p>
                 </div>
               </Link>
