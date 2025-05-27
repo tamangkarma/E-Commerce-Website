@@ -1,4 +1,4 @@
-import { Navigate } from "react-router";
+import { Link, Navigate } from "react-router";
 import { useCart } from "../store/cartStore";
 
 const AddToCart = () => {
@@ -19,16 +19,15 @@ const AddToCart = () => {
     return acc + price * item.quantity;
   }, 0);
 
-   if (!cart.length) {
+  if (!cart.length) {
     return (
       <div className="p-6 bg-gray-50 min-h-screen flex flex-col items-center justify-center">
         <p className="text-gray-600">Your cart is empty.</p>
-        <button
-          onClick={() => Navigate("/")}
-          className="mt-4 px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600"
-        >
-          Go Shopping
-        </button>
+        <Link to={"/"}>
+          <button className="mt-4 px-4 py-2 bg-navbar text-white rounded hover:bg-orange-600">
+            Go Shopping
+          </button>
+        </Link>
       </div>
     );
   }
@@ -118,13 +117,16 @@ const AddToCart = () => {
                 Total Items:{" "}
                 <span className="text-[#d4492b]">{totalQuantity}</span>
               </p>
-              <button
-                onClick={() => alert("Proceeding to checkout...")}
-                disabled={cart.length === 0}
-                className="px-4 py-2 mt-2 bg-navbar text-white rounded-lg hover:bg-red-600 transition"
-              >
-                Proceed to Checkout
-              </button>
+              {/* Proceed to Checkout Button */}
+
+              <Link to="/checkout">
+                <button
+                  disabled={cart.length === 0}
+                  className="px-4 py-2 mt-2 bg-navbar text-white rounded-lg hover:bg-red-600 transition"
+                >
+                  Proceed to Checkout
+                </button>
+              </Link>
             </div>
           </div>
         </div>
