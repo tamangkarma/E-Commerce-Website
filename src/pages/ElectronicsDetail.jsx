@@ -5,6 +5,7 @@ import { FaShare } from "react-icons/fa";
 import { useCart } from "../store/cartStore";
 import { Link } from "react-router";
 
+
 const ElectronicsDetail = () => {
   const addToCart = useCart((state) => state.addToCart);
 
