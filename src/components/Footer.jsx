@@ -10,6 +10,7 @@ const Footer = () => {
   return (
     <>
       <div className="text-white bg-navbar">
+        This is the footer @
         <div className="flex justify-center p-6 gap-14 md:gap-6 lg:gap-10">
           <div >
             <h1 className="text-2xl font-semibold ">Brand Name</h1>
