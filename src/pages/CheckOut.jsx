@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import PaymentPopup from "../payment.jsx/PayementPopup";
+import PaymentPopup from "../payment/PayementPopup";
 import { useForm } from "react-hook-form";
 
 const Checkout = () => {
